@@ -1,7 +1,9 @@
 Integrantes:
 
 · Deza, Ezequiel
+
 · Goicoa, Juan Ignacio
+
 · Lawrie, Ángeles
 
 Link del Trello:
