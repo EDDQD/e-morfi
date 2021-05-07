@@ -1,0 +1,22 @@
+{
+  "name": "e-morfi",
+  "version": "1.0.0",
+  "description": "Integrantes: Deza, Ezequiel / Goicoa, Juan Ignacio / Lawrie, Ángeles",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EDDQD/e-morfi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EDDQD/e-morfi/issues"
+  },
+  "homepage": "https://github.com/EDDQD/e-morfi#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
