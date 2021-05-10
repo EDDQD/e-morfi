@@ -30,7 +30,7 @@ body{
 }
 .container{
     margin: auto;
-    background-color:white;
+    background-color:lightgreen;
     width:400px;
     padding:30px;
 }
@@ -52,7 +52,7 @@ ul.slider li{
     opacity: 0; /*para que se oculten*/
     width: inherit; /*mismo que el padre*/
     height: inherit;
-    background-color:white;
+    background-color:lightgreen;
     transition: opacity .5s; /*para que se mueva lindo*/
 
 
@@ -82,3 +82,15 @@ ul.slider li:target{
     border-radius: 100%;
     
 }
+.product{
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    text-align: center;
+    padding:1.5em;
+   
+    
+}
+/*.product_1, product_2, product_3, product_4, product_5{
+    flex-grow: .5;
+}*/
