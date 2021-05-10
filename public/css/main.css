@@ -23,3 +23,62 @@ h2{
     color: black;
     text-decoration:none;
 }
+
+body{
+    background-color: lightgreen;
+    font-family:sans-serif;
+}
+.container{
+    margin: auto;
+    background-color:white;
+    width:400px;
+    padding:30px;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.slider{
+    position:relative;
+    width:400px;
+    height:180px;
+}
+/* lo siguiente pone a todas las imágenes unas arriba de otras*/
+ul.slider li{
+    position: absolute; 
+    left: 0;
+    top: 0;
+    opacity: 0; /*para que se oculten*/
+    width: inherit; /*mismo que el padre*/
+    height: inherit;
+    background-color:white;
+    transition: opacity .5s; /*para que se mueva lindo*/
+
+
+}
+
+/*a continuación vamos a hacer que se vea la primera imagen del slider*/
+ul.slider li:first-child{
+     opacity: 1; /*para que este si se vea*/
+
+}
+
+/*vamos a hacer que los puntos del slider tengan un target*/
+ul.slider li:target{
+    opacity: 1; /*cuando toquemos el boton el id de ese se va a ver*/
+}
+
+/*vamos a poner lindos los botones del slider*/
+.menu li a{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    background-color:grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+    
+}
