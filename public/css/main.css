@@ -2,6 +2,12 @@ header{
     text-align: center;
 
 }
+p1{
+    
+    color: black;
+    font-family: "Staatliches", Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
 h1{
     display: inline-block;
     padding-right: 120px;
@@ -79,7 +85,14 @@ ul.slider li:target{
     width: 20px;
     height: 20px;
     font-size: 20px;
-    border-radius: 100%;
+    border-radius: 100%;  
+}
+.menu li p2{
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
     
 }
 .product{
@@ -91,6 +104,72 @@ ul.slider li:target{
    
     
 }
-/*.product_1, product_2, product_3, product_4, product_5{
-    flex-grow: .5;
-}*/
+
+ul.menu i{
+
+    
+        list-style-type: none;
+      }
+      
+ul.menu li {
+        
+        float: left;
+        text-align: center;
+        width: 5em;
+      }
+@media (min-width: 640px) {
+        .products{
+            flex-basis: 50%;
+        }
+    
+        header{
+            flex-direction: row;
+        }
+    
+    
+        header form {
+            width: 40%;
+        }
+    
+    }
+    .products{
+        display: flex;
+        flex-direction: row;
+        margin: 50px;
+    }
+    
+    .products .product{
+        display: flex;
+        background: lightgreen;
+        color: black;
+        margin-bottom: 30px;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .products .product p{
+        padding: 10px;
+    }
+    
+    .products .product img{
+        width: 100%;
+    }
+
+   
+@media (min-width: 980px) {
+    .container{
+        flex-basis: 33.33%;
+    }   
+    .product p{
+        font-size: 1.5em;
+    }
+}
+@media (min-width: 1024px) {
+        .container{
+            flex-basis: 25%;
+        }   
+    
+        .products .product img{
+            width: 100%;
+        }
+}
