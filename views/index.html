@@ -1,132 +1,194 @@
 <!DOCTYPE html>
-
-<head>
-    <title>E-Morfi</title>
+<html>
+    <head>
+        <title>E-Morfi</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-rel="stylesheet" /> 
         <meta name="viewport"content="width=device-width,initial-scale=1">
-</head>
-<body>
-    <header>
-        
-            <img src="/images/logo.jpg" alt="Logo" width=200px>
-        
-        <br/>
-        
-        <nav class="navbar">
+        <link href="/css/main.css" rel="stylesheet">
+        <link href="/css/normalize.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="navbar-left">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                </div>
+                <div class="navbar-center">
+                    <ul>
+                        <li class="navbar-option"><a href="#">Sobre Nosotros</a></li>
+                        <li class="navbar-option"><a href="#">Promociones</a></li>
+                        <li class="logo"><a href="/"><img src="/images/logo.jpg" alt="Logo" width=200px></a></li>
+                        <li class="navbar-option"><a href="#">Recetas</a></li>
+                        <li class="navbar-option"><a href="#">Contactate</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-right">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </nav>        
+        </header>
+        <main>
+            <div class="banner-container">
+                <section class="banner-titles">
+                    <h1>Comé Rico</h1>
+                    <h3>100% PRODUCTOS ORGÁNICOS</h3>
+                </section>
+                <img src="/images/images.jpeg" alt="Logo" width=100px>
+                <section class="banner-info">
+                    <h2>50% OFF</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet cupiditate natus laboriosam quasi molestiae accusamus.</p>
+                </section>
+            </div>
+            <h2 class="destacados-title">Productos Destacados</h2>
+            <div class="product-container">
+                <article class="product">
+                    <img src="/images/imagen1.jpeg" width="400">
+                    <div class="product-info">
+                        <p class="description">x12 Jugo Natural Sin TACC Naranja Durazno 250ml Chia Graal</p>
+                        <p class="price">$1.738</p>
+                        <p class="discount">10% OFF</p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img src="/images/imagen2.jpeg" width="400">
+                    <div class="product-info">
+                        <p class="description">x12 Jugo Natural Sin TACC Naranja Durazno 250ml Chia Graal</p>
+                        <p class="price">$1.738</p>
+                        <p class="discount">10% OFF</p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img src="/images/imagen3.jpeg" width="400">
+                    <div class="product-info">
+                        <p class="description">x12 Jugo Natural Sin TACC Naranja Durazno 250ml Chia Graal</p>
+                        <p class="price">$1.738</p>
+                        <p class="discount">10% OFF</p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img src="/images/imagen4.jpeg" width="400">
+                    <div class="product-info">
+                        <p class="description">x12 Jugo Natural Sin TACC Naranja Durazno 250ml Chia Graal</p>
+                        <p class="price">$1.738</p>
+                        <p class="discount">10% OFF</p>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <img src="/images/logo.jpg" alt="Logo" width=100px>
+                <section class="footer-social-media">
+                    <p>¡Seguinos en nuestras redes!</p>
+                </section>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2020-2021 E-Morfi S.R.L.</p>
+            </div>
+        </footer>
+            <!-- <p1>
+                OFERTAS
+            </p1>
             
-            <h2="navbar-Nos"><i class="fas fa-users"></i><a/href="#">Sobre Nosotros</a></h2>
-            <h2="navbar-Prom"><i class="fas fa-percentage"></i><a/href="#">Promociones</a></h2>
-            <h2="navbar-Recipes"><i class="fas fa-utensils"></i><a/href="#">Recetas</a></h2>
-            <h2="navbar-Contact"><i class="fas fa-id-badge"></i><a/href="#">Contacto</a></h2>
-        </nav>    
-        
-        <p1>
-            OFERTAS
-        </p1>
-        
-        <div class="container">
-            
-            <ul class="slider">
-                <li id="slide1"> 
-                    <img src="/images/imagen1.jpeg"/>
-                </li>
-                <li id="slide2"> 
-                    <img src="/images/imagen2.jpeg"/>
-                </li>
-                <li id="slide3"> 
-                    <img src="/images/imagen3.jpeg"/>
-                </li>
-                <li id="slide4"> 
-                    <img src="/images/imagen4.jpeg"/>
-                </li>
-                <li id="slide5"> 
-                    <img src="/images/imagen5.jpeg"/>
-                </li>
-            </ul>
-            <ul class="menu">
-                <li>
-                    <a href="#slide1">1</a>
-                    <p2>Papas gratis</p2>
-                </li>
-                <li>
-                    <a href="#slide2">2</a>
-                    <p2>Bebida a eleccioón gratis</p2>
-                </li>
-                <li>
-                    <a href="#slide3">3</a>
-                    <p2>Elegí tu salsa gratis</p2>
-                </li>
-                <li>
-                    <a href="#slide4">4</a>
-                    <p2>Pagando en efectivo 20% de descuento</p2>
-                </li>
-                <li>
-                    <a href="#slide5">5</a>
-                    <p2>15% de descuento en tu próxima compra</p2>
-                </li>
-            </ul>
-        </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+            <div class="container">
+                
+                <ul class="slider">
+                    <li id="slide1"> 
+                        <img src="/images/imagen1.jpeg"/>
+                    </li>
+                    <li id="slide2"> 
+                        <img src="/images/imagen2.jpeg"/>
+                    </li>
+                    <li id="slide3"> 
+                        <img src="/images/imagen3.jpeg"/>
+                    </li>
+                    <li id="slide4"> 
+                        <img src="/images/imagen4.jpeg"/>
+                    </li>
+                    <li id="slide5"> 
+                        <img src="/images/imagen5.jpeg"/>
+                    </li>
+                </ul>
+                <ul class="menu">
+                    <li>
+                        <a href="#slide1">1</a>
+                        <p2>Papas gratis</p2>
+                    </li>
+                    <li>
+                        <a href="#slide2">2</a>
+                        <p2>Bebida a eleccioón gratis</p2>
+                    </li>
+                    <li>
+                        <a href="#slide3">3</a>
+                        <p2>Elegí tu salsa gratis</p2>
+                    </li>
+                    <li>
+                        <a href="#slide4">4</a>
+                        <p2>Pagando en efectivo 20% de descuento</p2>
+                    </li>
+                    <li>
+                        <a href="#slide5">5</a>
+                        <p2>15% de descuento en tu próxima compra</p2>
+                    </li>
+                </ul>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
 
-        <p1>Productos Destacados</p1>
-    <section class = "products">
-        <article class= "product product1">
-            <img src="/images/imagen1.jpeg" width="100" alt="" />
-            <h3>Lorem ipsum 1</h3>
-            <p>$250</p>
-        </article>
-        <article class="product product2">
-            <img src="/images/imagen2.jpeg" width="100" alt="" />
-            <h3>Lorem ipsum 2</h3>
-            <p>$300</p>
-        </article>
-        <article class="product product3">
-            <img src="/images/imagen3.jpeg" width="100" alt="" />
-            <h3>Lorem ipsum 3</h3>
-            <p>$400</p>
-        </article>
-        <article class="product product4">
-            <img src="/images/imagen4.jpeg" width="100" alt="" />
-            <h3>Lorem ipsum 4</h3>
-            <p>$180</p>
-        </article>
-        <article class="product product5">
-            <img src="/images/imagen5.jpeg" width="100" alt="" />
-            <h3>Lorem ipsum 5</h3>
-            <p>$410</p>
-        </article>
+            <p1>Productos Destacados</p1>
+        <section class = "products">
+            <article class= "product product1">
+                <img src="/images/imagen1.jpeg" width="100" alt="" />
+                <h3>Lorem ipsum 1</h3>
+                <p>$250</p>
+            </article>
+            <article class="product product2">
+                <img src="/images/imagen2.jpeg" width="100" alt="" />
+                <h3>Lorem ipsum 2</h3>
+                <p>$300</p>
+            </article>
+            <article class="product product3">
+                <img src="/images/imagen3.jpeg" width="100" alt="" />
+                <h3>Lorem ipsum 3</h3>
+                <p>$400</p>
+            </article>
+            <article class="product product4">
+                <img src="/images/imagen4.jpeg" width="100" alt="" />
+                <h3>Lorem ipsum 4</h3>
+                <p>$180</p>
+            </article>
+            <article class="product product5">
+                <img src="/images/imagen5.jpeg" width="100" alt="" />
+                <h3>Lorem ipsum 5</h3>
+                <p>$410</p>
+            </article>
+                
             
-        
-    </section>
-            
-    </header>
-    <footer>
-        <section>
-            <h4>Pagá con tarjeta o en efectivo</h4>
-            <p>Con tarjetas del banco Santander Río, tenés cuotas sin interés.</p>
-       
-            <h4>Envío gratis desde $ 2.500</h4>
-            <p>Solo para distancias menores a 5km.</p>
         </section>
+                
+        </body>
+        <footer>
+            <section>
+                <h4>Pagá con tarjeta o en efectivo</h4>
+                <p>Con tarjetas del banco Santander Río, tenés cuotas sin interés.</p>
+        
+                <h4>Envío gratis desde $ 2.500</h4>
+                <p>Solo para distancias menores a 5km.</p>
+            </section>
 
-        
-        <section>
-            <p>Copyright © 2020-2021 E-Morfi S.R.L.              </p>
-        
-        <section>
-            <p>Seguinos en:</p>
-        </section>
-    </footer>
-</body>
+            
+            <section>
+                <p>Copyright © 2020-2021 E-Morfi S.R.L.              </p>
+            
+            <section>
+                <p>Seguinos en:</p>
+            </section>
+        </footer> -->
+    </body>
 </html>
