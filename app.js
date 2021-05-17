@@ -11,3 +11,7 @@ app.get("/", (req, res) => {
 app.listen(3030, () => {
     console.log("El servidor ya está corriendo en el puerto 3030.");
 })
+
+app.get("/register.html", (req, res) => {
+    res.sendFile(path.join(__dirname + "/views/register.html"));
+})
