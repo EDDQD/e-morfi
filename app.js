@@ -12,13 +12,19 @@ app.get("/productDetail", (req, res) => {
     res.sendFile(path.join(__dirname + "/views/product.html"));
 })
 
+app.get("/register.html", (req, res) => {
+    res.sendFile(path.join(__dirname + "/views/register.html"));
+})
+
+app.get("/login.html", (req, res) => {
+    res.sendFile(path.join(__dirname + "/views/login.html"));
+})
+
+app.get("/productCart.html", (req, res) => {
+    res.sendFile(path.join(__dirname + "/views/cart.html"));
+})
+
 app.listen(3030, () => {
     console.log("El servidor ya está corriendo en el puerto 3030.");
 })
 
-app.get("/register.html", (req, res) => {
-    res.sendFile(path.join(__dirname + "/views/register.html"));
-})
-app.get("/login.html", (req, res) => {
-    res.sendFile(path.join(__dirname + "/views/login.html"));
-})
