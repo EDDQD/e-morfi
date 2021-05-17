@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EDDQD/e-morfi.git"
+    "url": "git+https://github.com/EDDQD/grupo_9_e-morfi.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EDDQD/e-morfi/issues"
+    "url": "https://github.com/EDDQD/grupo_9_e-morfi/issues"
   },
-  "homepage": "https://github.com/EDDQD/e-morfi#readme",
+  "homepage": "https://github.com/EDDQD/grupo_9_e-morfi#readme",
   "dependencies": {
     "express": "^4.17.1"
   },

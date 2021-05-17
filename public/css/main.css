@@ -10,6 +10,11 @@ Azul oscuro #182837
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    position: relative;
+    min-height: 100vh; /*Estas dos son para que el footer abajo de todo aún si el contenido no llega al fondo.*/
+}
+
 header{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -87,6 +92,7 @@ main {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
+    padding-bottom: 110px; /*Acomoda el espacio fijo del footer.*/
 }
     .banner-container {
         color: #666666;
@@ -124,6 +130,9 @@ main {
         text-align: center;
         margin-top: 20px;
     }
+    .destacados a {
+        text-decoration: none;
+    }
     .destacados .product-container {
         display: flex;
         flex-wrap: wrap;
@@ -135,7 +144,7 @@ main {
         .destacados .product {
             background-color: #ffffff;
             margin: 10px;
-            width: 350px;
+            width: 300px;
         }
             .destacados .product img {
                 width: 100%;
@@ -144,7 +153,7 @@ main {
                 display: flex;
                 flex-wrap: wrap;
                 border-top: solid 1px #ebebeb;
-                padding: 15px;
+                padding: 10px 15px;
                 text-align: left;
                 position: relative;
             }
@@ -219,8 +228,8 @@ main {
 footer {
     background-color: #c75c67;
     color: #ffffff;
-    /* position: fixed;
-    bottom: 0; */
+    position: absolute; /*Position y bottom fijan la barra al fondo del sitio.*/
+    bottom: 0;
     width: 100%;
     height: 110px;
     text-align: center;
@@ -426,7 +435,7 @@ footer {
         flex-direction: row;
     }
 }
-@media (min-width: 1180px){
+@media (min-width: 1280px){
     .destacados .product-container {
         flex-wrap: nowrap;
     }
