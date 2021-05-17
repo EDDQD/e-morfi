@@ -17,7 +17,7 @@ Buen diseño adaptativo y estructura.
 
 ## Nuestro equipo
 * Deza, Ezequiel: soporte IT con años de experiencia en el rol, pero aspiraciones de crecer en otro campo del rubro.
-* Goicoa, Juan Ignacio
+* Goicoa, Juan Ignacio: Planeamiento y control de la producción. A cargo del 100% la producción como también del personal operativo. Con más de 17 años de experiencia en el rubro textil. Tratando de retomar una vieja pasión, que por circunstancias personales tuve que dejar.
 * Lawrie, Ángeles
 
 ## Enlaces
