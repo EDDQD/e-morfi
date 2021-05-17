@@ -18,7 +18,7 @@ Buen diseño adaptativo y estructura.
 ## Nuestro equipo
 * Deza, Ezequiel: soporte IT con años de experiencia en el rol, pero aspiraciones de crecer en otro campo del rubro.
 * Goicoa, Juan Ignacio: Planeamiento y control de la producción. A cargo del 100% la producción como también del personal operativo. Con más de 17 años de experiencia en el rubro textil. Tratando de retomar una vieja pasión, que por circunstancias personales tuve que dejar.
-* Lawrie, Ángeles
+* Lawrie, Ángeles: Especialista en Marketing Digital. Me anoté en el curso para tener más herramientas laborales. Entender, hablar un mismo idioma con desarrolladores a la hora de trabajar es uno de mis principales objetivos. 
 
 ## Enlaces
 [Nuestro Trello](https://trello.com/b/X83F2x5F/e-morfi)
