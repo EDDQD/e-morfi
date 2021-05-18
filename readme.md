@@ -22,3 +22,8 @@ Buen diseño adaptativo y estructura.
 
 ## Enlaces
 [Nuestro Trello](https://trello.com/b/X83F2x5F/e-morfi)
+
+
+## Herramientas de Diseño
+Paleta de colores a utilizar: - 00909c - 203547 - d77379 - bf1e20
+Tipografias: Logo - Foodpacker. Texto Body - Core Rhino
