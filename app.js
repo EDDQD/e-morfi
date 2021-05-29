@@ -3,28 +3,26 @@ const app = express();
 const path = require("path");
 
 app.use(express.static("public"));
+app.set("view engine", "ejs");
 
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname + "/views/index.html"));
-})
+const routesMain = require("./routes/main.js");
+app.use("/", routesMain);
 
-app.get("/producto", (req, res) => {
-    res.sendFile(path.join(__dirname + "/views/product.html"));
-})
+const routesAbout = require("./routes/about.js");
+app.use("/about", routesAbout);
 
-app.get("/register", (req, res) => {
-    res.sendFile(path.join(__dirname + "/views/register.html"));
-})
+const routesProduct = require("./routes/product.js");
+app.use("/producto", routesProduct);
 
-app.get("/login", (req, res) => {
-    res.sendFile(path.join(__dirname + "/views/login.html"));
-})
+const routesRegister = require("./routes/register.js");
+app.use("/register", routesRegister);
 
-app.get("/cart", (req, res) => {
-    res.sendFile(path.join(__dirname + "/views/cart.html"));
-})
+const routesLogin = require("./routes/login.js");
+app.use("/login", routesLogin);
+
+const routesCart = require("./routes/cart.js");
+app.use("/cart", routesCart);
 
 app.listen(3030, () => {
     console.log("El servidor ya está corriendo en el puerto 3030.");
 })
-
