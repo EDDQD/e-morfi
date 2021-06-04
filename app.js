@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 const path = require("path");
+const method = require('method-override');
+app.use(method('_method'));
 
 app.use(express.static("public"));
 app.set("view engine", "ejs");
