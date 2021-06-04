@@ -1,6 +1,6 @@
 const productController = {
-    index: (req, res) => {
-        res.render("product");
+    detail: (req, res) => {
+        res.render("./product/detail");
     }
 }
 

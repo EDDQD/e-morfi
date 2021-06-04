@@ -1,0 +1,36 @@
+.sesion div{
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.titulo-sesion{
+    color:#1a808b;
+    font-size:250%;
+}
+.sesion-users, .sesion-password, .sesion-buttom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 1.0s;
+    height: 120%;
+
+}
+.sesion-users :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}
+.sesion-password :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}
+.sesion-buttom :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}

@@ -1,0 +1,83 @@
+.banner-container {
+    color: #666666;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-titles {
+    margin-bottom: 20px;
+}
+.banner-container h1 {
+    color: #1a808b;
+    font-size: 4em;
+    font-weight: lighter;
+    line-height: 10px;
+}
+.banner-container h3 {
+    font-weight: lighter;
+}
+.banner-info{
+    margin-top: 20px;
+}
+.banner-container h2 {
+    font-weight: bold;
+}
+        
+.banner-container p {
+    color: #333333;
+    max-width: 300px;
+}
+.destacados-title {
+    color: #182837;
+    text-align: center;
+    margin-top: 20px;
+}
+.destacados a {
+    text-decoration: none;
+}
+.destacados .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #182837;
+    margin-top: 20px;
+    padding: 40px;
+}
+.destacados .product {
+    background-color: #ffffff;
+    margin: 10px;
+    width: 300px;
+}
+.destacados .product img {
+    width: 100%;
+}
+.destacados .product-info {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #ebebeb;
+    padding: 10px 15px;
+    text-align: left;
+    position: relative;
+}
+.destacados .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c75c67;
+    width: 30%;
+}
+.destacados .discount {
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+}
+.destacados .description {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+@media (min-width: 1280px){
+    .destacados .product-container {
+        flex-wrap: nowrap;
+    }
+}

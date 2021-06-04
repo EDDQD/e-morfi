@@ -1,15 +1,21 @@
 <head>
-    <% if(typeof title !== "undefined") { %>
+    <!-- Por default, el título será "E-Morfi", pero puede recibir una variable title (opcional) para colocar "Título | E-Morfi". -->
+    <%  if(typeof title !== "undefined") { %>
         <title><%= title %> | E-Morfi</title>
-    <% } else { %>
+    <%  } else { %>
         <title>E-Morfi</title>
-    <% } %>
+    <%  } %>
     <meta charset="utf-8">
     <meta name="viewport"content="width=device-width,initial-scale=1">
     <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/partials/header.css" rel="stylesheet">
+    <link href="/css/partials/footer.css" rel="stylesheet">
     <link href="/css/normalize.css" rel="stylesheet">
-    <% if(typeof style !== "undefined") { %>
-        <link href="/css/<%= style %>.css" rel="stylesheet">
-    <% } %>
+    <!-- Se puede mandar un array style (opcional) para solicitar archivos CSS adicionales específicos para un sitio. -->
+    <%  if(typeof style !== "undefined") {
+            for (let i = 0; i < style.length; ++i) { %>
+                <link href="/css/<%= style[i] %>.css" rel="stylesheet">
+    <%      } 
+        } %>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
 </head>

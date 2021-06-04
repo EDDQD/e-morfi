@@ -1,0 +1,122 @@
+header{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1a808b;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+header a:hover {
+    color: #182837;
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    max-width: 950px;
+    height: 120px;
+    justify-content: center;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.navbar-left {
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-left i {
+    display: block;
+    font-size: 26px;
+}
+.navbar-center {
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-center ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.logo img:hover {
+    width: 160px;
+}
+.navbar-center img {
+    width: 140px;
+}
+.navbar-option {
+    display: none;
+    text-decoration: none;
+    padding: 5px;
+}
+.navbar-right {
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-right i {
+    display: block;
+    padding: 10px;
+    font-size: 26px;
+}
+@media (min-width: 500px){
+    .navbar-left {
+        width: 30%;
+    }
+    .navbar-left i {
+        font-size: 35px;
+    }
+    .navbar-center {
+        width: 40%;
+    }
+    .navbar-center img {
+        width: 200px;
+    }
+    .logo img:hover {
+        width: 220px;
+    }
+    .navbar-right {
+        width: 30%;
+    }
+    .navbar-right i {
+        font-size: 35px;
+    }
+}
+@media (min-width: 820px){
+    .navbar-left {
+        width: 12%;
+        justify-content: flex-end;
+        padding-right: 15px;
+    }
+    .navbar-left i {
+        display: none;
+    }
+    .navbar-center {
+        width: 76%;
+    }
+    .logo {
+        width: 40%;
+    }
+    .navbar-option{
+        display: block;
+        width: 15%
+    }
+    .navbar-right {
+        width: 12%;
+        justify-content: flex-start;
+        padding-left: 15px;
+    }
+    .navbar-right i {
+        font-size: 20px;
+    }
+}

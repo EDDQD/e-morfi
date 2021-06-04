@@ -12,13 +12,10 @@ const routesAbout = require("./routes/about.js");
 app.use("/about", routesAbout);
 
 const routesProduct = require("./routes/product.js");
-app.use("/producto", routesProduct);
+app.use("/product", routesProduct);
 
-const routesRegister = require("./routes/register.js");
-app.use("/register", routesRegister);
-
-const routesLogin = require("./routes/login.js");
-app.use("/login", routesLogin);
+const routesAccount = require("./routes/account.js");
+app.use("/account", routesAccount);
 
 const routesCart = require("./routes/cart.js");
 app.use("/cart", routesCart);

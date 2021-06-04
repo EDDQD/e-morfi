@@ -1,0 +1,66 @@
+.register-name, .register-users, .register-fone, .register-birthday, .register-address, .register-info, .register-password, .register-confirm, .register-buttom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    transition: 1.5s;
+    height: 80%;
+}
+.register-name :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}
+.register-users :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}
+.register-fone :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}
+.register-fone :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}
+.register-birthday :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}
+.register-address :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}
+.register-info :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}
+.register-password :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}
+.register-confirm :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}
+.register-buttom :hover{
+    box-shadow: 5px 5px 5px #c75c67;
+    background-color:#182837;
+    color:white;
+}
+.register div{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
