@@ -60,4 +60,5 @@ module.exports = {
 
         this.writeFile(newProduct);
     }
+    
 }

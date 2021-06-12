@@ -25,5 +25,12 @@ Buen diseño adaptativo y estructura.
 
 
 ## Herramientas de Diseño
-Paleta de colores a utilizar: - 00909c - 203547 - d77379 - bf1e20
-Tipografias: Logo - Foodpacker. Texto Body - Core Rhino
+### Paleta de colores a utilizar:
+* #00909c
+* #203547
+* #d77379
+* #bf1e20
+
+### Tipografias:
+* Logo: Foodpacker
+* Cuerpo: Core Rhino

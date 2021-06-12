@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Barra de cereal",
+        "description": "Con chocolate y granola.",
+        "category": "Dulce",
+        "price": 50
+    },
+    {
+        "id": 2,
+        "name": "Maní",
+        "description": "Sabor queso.",
+        "category": "Salado",
+        "price": 30
+    },
+    {
+        "id": 3,
+        "name": "Dulce de leche",
+        "description": "Tarro de 1kg.",
+        "category": "Dulce",
+        "price": 200
+    },
+    {
+        "id": 4,
+        "name": "Pochoclo",
+        "description": "Salado y con manteca.",
+        "category": "Salado",
+        "price": 90
+    }
+]

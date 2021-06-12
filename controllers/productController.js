@@ -11,12 +11,12 @@ const productController = {
         const product = {
             name: name,
             description: description,
-            image: image,
+            // image: image,
             category: category,
             price: price,
         }
         const productCreated = productModel.create(product);
-        res.redirect('/products/detail' + productCreated.id);
+        res.redirect('/product/detail' + productCreated.id);
     },
     edit: (req, res) => {
         const product = productModel.findByPk(req.params.id);

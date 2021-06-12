@@ -2,40 +2,41 @@
 <html lang="es">
 <%- include('../partials/head') %>
 
-<body>
+    <body>
+        <%- include('../partials/header') %>
+        <main>
+            <section class="send-product">
+                <!-- 
+                    action: la ruta donde vamos a mandar nuestros campos 
+                -->
+                <form action="/product/<%= product.id %>?_method=PUT" method="POST">
+
+                    <div class="input-container">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name" required/>
+                    </div>
     
-    <%- include('../partials/header') %>
-   <main >
-       
-        <section class="send-product">
-            <!-- 
-                action: la ruta donde vamos a mandar nuestros campos 
-            -->
-            <form action="/product/<%= product.id %>?_method=PUT" method="POST">
-
-                <div class="input-container">
-                    <label for="name">Ingrese el producto</label>
-                    <input type="text" name="name" id="name" required value="<%= product.name %>"/>
-                </div>
-                
-                <div class="input-container">
-                    <label for="food">¿Es comida vegetariana?</label>
-                    <input type="vegana" required name="vegetariana" id="food" value="yes" /> Si
-                    <input type="radio" required name="vegetariana" id="food" value="no" /> No
-                </div>
-
-                <div class="input-container">
-                    <button type="submit">ENVIAR</button>
-                </div>
-
-            </form>
-        </section>
-
-
-   </main>
-
-   <div id="space-x-banner"></div>
-
-
-</body>
+                    <div class="input-container">
+                        <label for="description">Descripción</label>
+                        <input type="text" name="description" id="description">
+                    </div>
+    
+                    <div class="input-container">
+                        <label for="category">Categoría</label>
+                        <input type="text"  name="category" id="category">
+                    </div>
+    
+                    <div class="input-container">
+                        <label for="description">Precio</label>
+                        <input type="text"  name="description" id="description">
+                    </div>
+                    
+                    <div class="input-container">
+                        <button type="submit">ENVIAR</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <%- include('../partials/footer') %>
+    </body>
 </html> 
