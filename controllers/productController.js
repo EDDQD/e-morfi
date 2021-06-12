@@ -32,6 +32,13 @@ const productController = {
         productModel.update(data, id);
 
         res.redirect('/product/detail/' + id);
+    },
+    destroy: (req, res) => {
+        const id = req.params.id;
+        
+        productModel.destroy(id);
+
+        res.redirect('/product/list');
     }
 }
 

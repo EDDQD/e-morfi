@@ -11,5 +11,8 @@ productRoutes.post("/create", productController.store);
 productRoutes.get('/:id/edit', productController.edit);
 productRoutes.put('/:id', productController.update);
 
+// Delete
+productRoutes.delete('/:id', productController.destroy);
+
 module.exports = productRoutes; 
 

@@ -39,9 +39,9 @@ module.exports = {
 
         // Leer el archivo
         const product = this.readFile();
-        // Agregar nuestro producto al array de planetas
+        // Agregar nuestro producto al array de prdoducto
         const productUpdated = [...product, product];
-        // Volver a escribir el archivo con el nuevo array de planetas
+        // Volver a escribir el archivo con el nuevo array de productos
         this.writeFile(productUpdated);
         return product;
     },
@@ -57,6 +57,13 @@ module.exports = {
             }
             return product;
         });
+
+        this.writeFile(newProduct);
+    },
+    destroy(id) {
+        const product = this.readFile();
+
+        const newProduct = product.filter(product => product.id != id);
 
         this.writeFile(newProduct);
     }
