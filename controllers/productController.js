@@ -1,22 +1,24 @@
+const productModel = require("../models/productModel.js");
+
 const productController = {
     detail: (req, res) => {
         res.render("./product/detail");
     },
     formNew: (req, res) => {
-        res.render('product/new')
+        res.render('./product/new');
     },
-    store: (req, res)=> {
+    store: (req, res) => {
         //Creamos el producto
-        const {name, description, image, category, price} = req.body;
-        const product = {
+        const {name, description, category, price} = req.body;
+        const newProduct = {
             name: name,
             description: description,
             // image: image,
             category: category,
             price: price,
         }
-        const productCreated = productModel.create(product);
-        res.redirect('/product/detail' + productCreated.id);
+        const productCreated = productModel.create(newProduct);
+        res.redirect('/product/detail/:' + productCreated.id);
     },
     edit: (req, res) => {
         const product = productModel.findByPk(req.params.id);
@@ -41,6 +43,5 @@ const productController = {
         res.redirect('/product/list');
     }
 }
-
 
 module.exports = productController;

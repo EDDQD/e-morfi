@@ -7,6 +7,11 @@ app.use(method('_method'));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
+// Configura el entorno de la aplicación para que lo que llegue por form se capture como objeto literal
+app.use(express.urlencoded({ extended: false }));
+// Posibilita la conversión de información en formato JSON
+app.use(express.json());
+
 const routesMain = require("./routes/main.js");
 app.use("/", routesMain);
 

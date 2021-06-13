@@ -1,30 +1,44 @@
 [
-    {
-        "id": 1,
-        "name": "Barra de cereal",
-        "description": "Con chocolate y granola.",
-        "category": "Dulce",
-        "price": 50
-    },
-    {
-        "id": 2,
-        "name": "Maní",
-        "description": "Sabor queso.",
-        "category": "Salado",
-        "price": 30
-    },
-    {
-        "id": 3,
-        "name": "Dulce de leche",
-        "description": "Tarro de 1kg.",
-        "category": "Dulce",
-        "price": 200
-    },
-    {
-        "id": 4,
-        "name": "Pochoclo",
-        "description": "Salado y con manteca.",
-        "category": "Salado",
-        "price": 90
-    }
+  {
+    "id": 1,
+    "name": "Barra de cereal",
+    "description": "Con chocolate y granola.",
+    "category": "Dulce",
+    "price": 50
+  },
+  {
+    "id": 2,
+    "name": "Maní",
+    "description": "Sabor queso.",
+    "category": "Salado",
+    "price": 30
+  },
+  {
+    "id": 3,
+    "name": "Dulce de leche",
+    "description": "Tarro de 1kg.",
+    "category": "Dulce",
+    "price": 200
+  },
+  {
+    "id": 4,
+    "name": "Pochoclo",
+    "description": "Salado y con manteca.",
+    "category": "Salado",
+    "price": 90
+  },
+  {
+    "name": "Palitos Pehuamar",
+    "description": "Snack salado",
+    "category": "Salado",
+    "price": 20,
+    "id": 5
+  },
+  {
+    "name": "Yerba mate",
+    "description": "Marca Amanda",
+    "category": "Bebida",
+    "price": "250",
+    "id": 6
+  }
 ]

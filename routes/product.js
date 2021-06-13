@@ -15,4 +15,3 @@ productRoutes.put('/:id', productController.update);
 productRoutes.delete('/:id', productController.destroy);
 
 module.exports = productRoutes; 
-

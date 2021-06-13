@@ -34,16 +34,16 @@ module.exports = {
         // Devolvemos el producto
         return productFound;
     },
-    create(product) {
-        product.id = this.generateId();
+    create(newProduct) {
+        newProduct.id = this.generateId();
 
         // Leer el archivo
         const product = this.readFile();
         // Agregar nuestro producto al array de prdoducto
-        const productUpdated = [...product, product];
+        const productUpdated = [...product, newProduct];
         // Volver a escribir el archivo con el nuevo array de productos
         this.writeFile(productUpdated);
-        return product;
+        return newProduct;
     },
     update(data, id) {
         const product = this.readFile();
@@ -67,5 +67,4 @@ module.exports = {
 
         this.writeFile(newProduct);
     }
-    
 }
